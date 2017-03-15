@@ -20,3 +20,17 @@ for item in years:
     total += float(item)
 
 avg_year = total/len(years)
+
+
+
+
+
+
+
+#4 Using NumPy
+
+import numpy
+
+world_alcohol = numpy.genfromtxt("world_alcohol.csv", delimiter=",")
+print(type(world_alcohol))
+
