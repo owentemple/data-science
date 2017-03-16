@@ -59,3 +59,27 @@ print(world_alcohol)
 
 
 
+uruguay_other_1986 = world_alcohol[1,4]
+
+third_country = world_alcohol[2,2]
+
+
+# select slices to put whole columns into variables
+countries = world_alcohol[:,2]
+
+alcohol_consumption = world_alcohol[:,4]
+
+
+first_two_columns = world_alcohol[:,0:3]
+
+first_ten_years = world_alcohol[:9,0]
+
+first_ten_rows = world_alcohol[:9,:]
+
+
+
+
+
+
+
+
