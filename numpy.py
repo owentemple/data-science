@@ -70,13 +70,14 @@ countries = world_alcohol[:,2]
 alcohol_consumption = world_alcohol[:,4]
 
 
-first_two_columns = world_alcohol[:,0:3]
+first_two_columns = world_alcohol[:,0:2]
 
-first_ten_years = world_alcohol[:9,0]
+first_ten_years = world_alcohol[:10,0]
 
-first_ten_rows = world_alcohol[:9,:]
+first_ten_rows = world_alcohol[:10,:]
 
 
+first_twenty_regions = world_alcohol[:21,1:3]
 
 
 
