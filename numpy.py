@@ -77,7 +77,15 @@ first_ten_years = world_alcohol[:10,0]
 first_ten_rows = world_alcohol[:10,:]
 
 
-first_twenty_regions = world_alcohol[:21,1:3]
+first_twenty_regions = world_alcohol[:20,1:3]
+
+
+#  Computation with NumPy
+
+
+countries_canada = (world_alcohol[:,2] == 'Canada')
+
+years_1984 = (world_alcohol[:,0] == '1984')
 
 
 
