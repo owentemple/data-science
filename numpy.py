@@ -88,7 +88,39 @@ countries_canada = (world_alcohol[:,2] == 'Canada')
 years_1984 = (world_alcohol[:,0] == '1984')
 
 
+#selecting elements
+
+country_is_algeria = (world_alcohol[:,2] == 'Algeria')
+country_algeria = world_alcohol[country_is_algeria]
+
+# Comparisons With Multiple Conditions
+
+is_algeria_and_1986 = (world_alcohol[:,0] == '1986') & (world_alcohol[:,2] == 'Algeria')
+
+rows_with_algeria_and_1986 = world_alcohol[is_algeria_and_1986]
+
+#Replacing Values
+
+first_column_1986 = (world_alcohol[:,0] == '1986')
+world_alcohol[first_column_1986,0] = '2014'
+
+fourth_column_wine = (world_alcohol[:,3] == 'Wine')
+world_alcohol[fourth_column_wine, 3] = 'Grog'
+
+#Replacing Empty Strings
+
+is_value_empty = (world_alcohol[:,4] == '')
+world_alcohol[is_value_empty,4] = 0
 
 
+#Converting Data Types
+
+alcohol_consumption = world_alcohol[:,4].astype(float)
+
+#Computing With NumPy
+
+total_alcohol = alcohol_consumption.sum()
+
+average_alcohol = alcohol_consumption.mean()
 
 
