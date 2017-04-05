@@ -136,4 +136,28 @@ canada_alcohol = world_alcohol[canada_1986,4].astype(float)
 
 total_canadian_drinking = canada_alcohol.sum()
 
+#Calculating Consumption For Each Country
+
+totals = {}
+is_year = (world_alcohol[:,0] == '1989')
+year = world_alcohol[is_year,:]
+
+for country in countries:
+    is_country = year[:,2] == country
+    country_consumption = year[is_country,:]
+    alcohol_column = country_consumption[:,4]
+    is_empty = alcohol_column == ''
+    alcohol_column[is_empty] = "0"
+    alcohol_column = alcohol_column.astype(float)
+    totals[country] = alcohol_column.sum()
+
+#Finding The Country That Drinks The Most
+
+highest_value = 0
+highest_key = None
+
+for country in totals:
+    if totals[country] > highest_value:
+        highest_value = totals[country]
+        highest_key = country
 
