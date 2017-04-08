@@ -47,3 +47,50 @@ SELECT * FROM movies WHERE name LIKE '%Twilight%' ORDER BY year DESC;
 
 SELECT * FROM movies WHERE genre LIKE 'comedy' AND year = 2012;
 
+
+--AGGREGATE PROJECT
+
+SELECT COUNT(*) FROM fake_apps;
+
+SELECT name, category, price, MAX(downloads) FROM fake_apps;
+
+SELECT category, COUNT(*) FROM fake_apps GROUP BY category;
+
+SELECT name, category, MAX(downloads) FROM fake_apps;
+
+SELECT name, category, MIN(downloads) FROM fake_apps;
+
+SELECT category, ROUND(AVG(price),0) FROM fake_apps GROUP BY category;
+
+SELECT category, ROUND(AVG(price),2) FROM fake_apps GROUP BY category;
+
+SELECT name, MAX(price) FROM fake_apps;
+
+SELECT name, MIN(downloads) FROM fake_apps;
+
+SELECT SUM(downloads) FROM fake_apps WHERE category LIKE 'games';
+
+SELECT COUNT(*) FROM fake_apps WHERE price = 0;
+
+SELECT COUNT(*) FROM fake_apps WHERE price = 14.99;
+
+SELECT SUM(downloads) FROM fake_apps WHERE category LIKE 'music';
+
+SELECT SUM(downloads) FROM fake_apps WHERE category LIKE 'business';
+
+SELECT category, COUNT(*) FROM fake_apps GROUP BY category;
+
+SELECT price, AVG(downloads) FROM fake_apps GROUP BY price;
+
+SELECT price, ROUND(AVG(downloads),0) FROM fake_apps GROUP BY price;
+
+SELECT name, category, MAX(price) FROM fake_apps GROUP BY category;
+
+SELECT COUNT(*) FROM fake_apps WHERE name LIKE 'A%';
+
+SELECT category, SUM(downloads) FROM fake_apps WHERE category LIKE '%sports%' OR '%health%';
+
+SELECT SUM(downloads) FROM fake_apps WHERE category IN ('Sports','Health & Fitness');
+
+
+
