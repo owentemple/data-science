@@ -93,4 +93,40 @@ SELECT category, SUM(downloads) FROM fake_apps WHERE category LIKE '%sports%' OR
 SELECT SUM(downloads) FROM fake_apps WHERE category IN ('Sports','Health & Fitness');
 
 
+-- JOIN
+
+CREATE TABLE tracks (id INTEGER PRIMARY KEY, title TEXT, album_id INTEGER);
+
+INSERT INTO tracks VALUES (1, 'Smooth Criminal', 8);
+
+INSERT INTO tracks VALUES (2, 'Blue Christmas', 7);
+
+SELECT * FROM tracks;
+
+SELECT * FROM albums;
+
+--Combine the albums and tracks tables using an INNER JOIN. Order the query by album_id.
+
+SELECT * FROM albums
+INNER JOIN tracks
+ON tracks.album_id=albums.id
+ORDER BY tracks.album_id;
+
+--Combine the albums and artists table using a LEFT OUTER JOIN. Let albums be the left table.
+
+SELECT * FROM albums
+LEFT OUTER JOIN artists
+ON albums.artist_id=artists.id;
+
+--Combine the albums and artists table using a LEFT OUTER JOIN. Let artists be the left table.
+
+SELECT * FROM artists
+LEFT OUTER JOIN albums
+ON albums.artist_id=artists.id;
+
+--Use any join you like to combine the albums and tracks table. Rename the album_id column to Albums.
+
+SELECT albums.id, albums.name, tracks.album_id AS Albums FROM tracks
+INNER JOIN albums
+ON albums.artist_id=tracks.album_id;
 
