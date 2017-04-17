@@ -99,3 +99,17 @@ col_names = food_info.columns.tolist()
 print(col_names)
 
 print(food_info.head(3))
+
+
+#2: Transforming A Column
+
+div_1000 = food_info["Iron_(mg)"] / 1000
+add_100 = food_info["Iron_(mg)"] + 100
+sub_100 = food_info["Iron_(mg)"] - 100
+mult_2 = food_info["Iron_(mg)"]*2
+
+sodium_grams = food_info["Sodium_(mg)"] / 1000
+
+sugar_milligrams = food_info["Sugar_Tot_(g)"] * 1000
+
+
