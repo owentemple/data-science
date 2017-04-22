@@ -113,3 +113,27 @@ sodium_grams = food_info["Sodium_(mg)"] / 1000
 sugar_milligrams = food_info["Sugar_Tot_(g)"] * 1000
 
 
+# 3: Performing Math With Multiple Columns
+
+water_energy = food_info["Water_(g)"] * food_info["Energ_Kcal"]
+print(water_energy[0:5])
+
+grams_of_protein_per_gram_of_water = food_info["Protein_(g)"] / food_info["Water_(g)"]
+
+milligrams_of_calcium_and_iron = food_info["Calcium_(mg)"] + food_info["Iron_(mg)"]
+
+
+# 4: Create A Nutritional Index
+
+weighted_protein = food_info["Protein_(g)"] * 2
+
+weighted_fat = food_info["Lipid_Tot_(g)"] * -0.75
+
+initial_rating = weighted_protein + weighted_fat
+
+
+
+
+
+
+
