@@ -132,8 +132,40 @@ weighted_fat = food_info["Lipid_Tot_(g)"] * -0.75
 initial_rating = weighted_protein + weighted_fat
 
 
+# 5: Normalizing Columns In A Data Set
+
+print(food_info["Protein_(g)"][0:5])
+max_protein = food_info["Protein_(g)"].max()
+
+normalized_protein = food_info["Protein_(g)"] / max_protein
+
+max_fat = food_info["Lipid_Tot_(g)"].max()
+
+normalized_fat = food_info["Lipid_Tot_(g)"] / max_fat
 
 
+# 6: Creating A New Column
+
+food_info["Normalized_Protein"] = normalized_protein
+
+food_info["Normalized_Fat"] = normalized_fat
+
+
+# 7: Create A Normalized Nutritional Index
+
+food_info["Normalized_Protein"] = food_info["Protein_(g)"] / food_info["Protein_(g)"].max()
+food_info["Normalized_Fat"] = food_info["Lipid_Tot_(g)"] / food_info["Lipid_Tot_(g)"].max()
+
+food_info["Norm_Nutr_Index"] = 2 * food_info["Normalized_Protein"] - 0.75 * food_info["Normalized_Fat"]
+
+
+# 8: Sorting A DataFrame By A Column
+
+food_info["Normalized_Protein"] = food_info["Protein_(g)"] / food_info["Protein_(g)"].max()
+food_info["Normalized_Fat"] = food_info["Lipid_Tot_(g)"] / food_info["Lipid_Tot_(g)"].max()
+food_info["Norm_Nutr_Index"] = 2*food_info["Normalized_Protein"] + (-0.75*food_info["Normalized_Fat"])
+
+food_info.sort_values("Norm_Nutr_Index", inplace=True, ascending=False)
 
 
 
