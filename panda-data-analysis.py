@@ -169,3 +169,27 @@ food_info.sort_values("Norm_Nutr_Index", inplace=True, ascending=False)
 
 
 
+#Working with Missing Data
+
+# 1: Introduction
+
+import pandas as pd
+
+titanic_survival = pd.read_csv("titanic_survival.csv")
+
+
+
+#2: Finding The Missing Data
+
+age = titanic_survival["age"]
+print(age.loc[10:20])
+
+age_is_null = pd.isnull(age)
+
+age_null_true = age[age_is_null]
+
+
+age_null_count = len(age_null_true)
+
+print(age_null_count)
+
