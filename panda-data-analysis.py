@@ -193,3 +193,17 @@ age_null_count = len(age_null_true)
 
 print(age_null_count)
 
+
+
+# 3: Whats The Big Deal With Missing Data?
+
+
+age_is_null = pd.isnull(titanic_survival["age"])
+
+
+age_values= titanic_survival["age"][age_is_null == False]
+
+
+correct_mean_age = sum(age_values) / len(age_values)
+
+
