@@ -215,11 +215,11 @@ correct_mean_fare = titanic_survival["fare"].mean()
 
 
 
-# Read Data Science From Scractch
-#Through page 20
+
 
 
 # 6: Calculating Summary Statistics
+#review for understanding
 
 
 passenger_classes = [1, 2, 3]
@@ -230,3 +230,6 @@ for this_class in passenger_classes:
     fare_for_class = pclass_fares.mean()
     fares_by_class[this_class] = fare_for_class
 
+# Read Data Science From Scratch
+#Through page 20
+#Through lists and Tuples, page 21
