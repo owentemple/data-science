@@ -233,3 +233,5 @@ for this_class in passenger_classes:
 # Read Data Science From Scratch
 #Through page 20
 #Through lists and Tuples, page 21
+#Through Dictionsaries, page 24
+
