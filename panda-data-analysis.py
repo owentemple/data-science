@@ -238,4 +238,8 @@ for this_class in passenger_classes:
 #Through Barcharts, page 42
 #Through Chapter 3, page 48
 
+#Data Science for Business
+#Through Page 3- Wal-mart Case Study
+
+
 
