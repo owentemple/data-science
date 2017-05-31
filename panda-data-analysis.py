@@ -240,6 +240,6 @@ for this_class in passenger_classes:
 
 #Data Science for Business
 #Through Page 3- Wal-mart Case Study
-
+# Through Page 24
 
 
