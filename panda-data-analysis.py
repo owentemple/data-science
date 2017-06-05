@@ -248,4 +248,4 @@ for this_class in passenger_classes:
 #Exporting your worksheet
 #Through Section: 5 How to use Tableau for Data Mining 18. Intro (what you will learn in this section)
 #Through Get the Dataset + Project Overview, Section 5, Lecture 19
-
+# Connecting Tableau to an Excel File, Section 5, Lecture 20
