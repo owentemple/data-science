@@ -249,3 +249,4 @@ for this_class in passenger_classes:
 #Through Section: 5 How to use Tableau for Data Mining 18. Intro (what you will learn in this section)
 #Through Get the Dataset + Project Overview, Section 5, Lecture 19
 # Connecting Tableau to an Excel File, Section 5, Lecture 20
+#Through How to visualise an ad-hoc A-B test in Tableau Section 5, Lecture 21
