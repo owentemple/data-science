@@ -252,4 +252,5 @@ for this_class in passenger_classes:
 #Through How to visualise an ad-hoc A-B test in Tableau Section 5, Lecture 21
 # Through Adding a Reference Line
 # Looking for anomalies Section 5, Lecture 24
+# Through Section 6, 27. Intro (what you will learn in this section)
 
