@@ -253,4 +253,4 @@ for this_class in passenger_classes:
 # Through Adding a Reference Line
 # Looking for anomalies Section 5, Lecture 24
 # Through Section 6, 27. Intro (what you will learn in this section)
-
+# Through Creating bins & Visualizing distributions Section 6, Lecture 28
