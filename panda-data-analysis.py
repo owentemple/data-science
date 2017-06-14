@@ -254,3 +254,4 @@ for this_class in passenger_classes:
 # Looking for anomalies Section 5, Lecture 24
 # Through Section 6, 27. Intro (what you will learn in this section)
 # Through Creating bins & Visualizing distributions Section 6, Lecture 28
+# Through Creating a classification test for a numeric variable Section 6, Lecture 29
