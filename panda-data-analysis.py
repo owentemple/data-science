@@ -255,3 +255,4 @@ for this_class in passenger_classes:
 # Through Section 6, 27. Intro (what you will learn in this section)
 # Through Creating bins & Visualizing distributions Section 6, Lecture 28
 # Through Creating a classification test for a numeric variable Section 6, Lecture 29
+# Through 30. Combining two charts and working with them in Tableau
