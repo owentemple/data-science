@@ -257,3 +257,5 @@ for this_class in passenger_classes:
 # Through Creating a classification test for a numeric variable Section 6, Lecture 29
 # Through 30. Combining two charts and working with them in Tableau
 #  Validating Tableau Data Mining with a Chi-Squared test Section 6, Lecture 31
+# Through Section Recap Section 6, Lecture 36
+
