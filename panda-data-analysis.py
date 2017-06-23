@@ -259,3 +259,4 @@ for this_class in passenger_classes:
 #  Validating Tableau Data Mining with a Chi-Squared test Section 6, Lecture 31
 # Through Section Recap Section 6, Lecture 36
 # Types of variables: Categorical vs Numeric Section 8, Lecture 40
+# Types of regressions Section 8, Lecture 41
