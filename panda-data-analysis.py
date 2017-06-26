@@ -261,4 +261,7 @@ for this_class in passenger_classes:
 # Types of variables: Categorical vs Numeric Section 8, Lecture 40
 # Types of regressions Section 8, Lecture 41
 # Through Lecture 43: R squared
+# Through Lecture 44: Adjusted R squared
+
+
 
