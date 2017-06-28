@@ -262,6 +262,7 @@ for this_class in passenger_classes:
 # Types of regressions Section 8, Lecture 41
 # Through Lecture 43: R squared
 # Through Lecture 44: Adjusted R squared
+# Through Introduction to Gretl Section 9, Lecture 46
 
 
 
