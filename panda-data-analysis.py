@@ -263,6 +263,7 @@ for this_class in passenger_classes:
 # Through Lecture 43: R squared
 # Through Lecture 44: Adjusted R squared
 # Through Introduction to Gretl Section 9, Lecture 46
+# Through Get the dataset Section 9, Lecture 47
 
 
 
