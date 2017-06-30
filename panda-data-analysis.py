@@ -264,6 +264,7 @@ for this_class in passenger_classes:
 # Through Lecture 44: Adjusted R squared
 # Through Introduction to Gretl Section 9, Lecture 46
 # Through Get the dataset Section 9, Lecture 47
+# Through Reading Linear Regression Output Section 9, Lecture 49
 
 
 
