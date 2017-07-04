@@ -267,7 +267,7 @@ for this_class in passenger_classes:
 # Through Reading Linear Regression Output Section 9, Lecture 49
 # Vaca
 # camping
-      
+# Through 56. Ways to build a model: BACKWARD, FORWARD, STEPWISE
 
 
 
