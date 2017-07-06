@@ -1,0 +1,10 @@
+# Log started 2017-06-30 14:50
+# Record of session commands.  Please note that this will
+# likely require editing if it is to be run as a script.
+open /Users/owentemple/Code/datascience/DSAZ/SalaryData.csv
+summary YearsExperience --simple
+summary YearsExperience
+summary YearsExperience Salary
+# model 1
+ols Salary 0 YearsExperience
+fcast 1 30 --static
