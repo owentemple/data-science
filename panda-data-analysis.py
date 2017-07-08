@@ -269,6 +269,7 @@ for this_class in passenger_classes:
 # camping
 # Through 56. Ways to build a model: BACKWARD, FORWARD, STEPWISE
 # Backward Elimination - Practice time Section 10, Lecture 57
+# Using Adjusted R-squared to create Robust models Section 10, Lecture 58
 
 
 
