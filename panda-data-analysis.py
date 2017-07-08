@@ -270,6 +270,7 @@ for this_class in passenger_classes:
 # Through 56. Ways to build a model: BACKWARD, FORWARD, STEPWISE
 # Backward Elimination - Practice time Section 10, Lecture 57
 # Using Adjusted R-squared to create Robust models Section 10, Lecture 58
+# Binary outcome: Yes/No-Type Business Problems Section 11, Lecture 63
 
 
 
