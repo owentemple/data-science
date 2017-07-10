@@ -271,6 +271,7 @@ for this_class in passenger_classes:
 # Backward Elimination - Practice time Section 10, Lecture 57
 # Using Adjusted R-squared to create Robust models Section 10, Lecture 58
 # Binary outcome: Yes/No-Type Business Problems Section 11, Lecture 63
+# Logistic regression intuition Section 11, Lecture 64
 
 
 
