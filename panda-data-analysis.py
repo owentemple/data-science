@@ -273,6 +273,8 @@ for this_class in passenger_classes:
 # Binary outcome: Yes/No-Type Business Problems Section 11, Lecture 63
 # Logistic regression intuition Section 11, Lecture 64
 # Headed to Barcelona
+# Headed to Barcelona
+
 
 
 
