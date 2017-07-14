@@ -274,6 +274,8 @@ for this_class in passenger_classes:
 # Logistic regression intuition Section 11, Lecture 64
 # Headed to Barcelona
 # Headed to Barcelona
+# In Barcelona
+
 
 
 
