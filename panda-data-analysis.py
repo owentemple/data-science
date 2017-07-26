@@ -277,6 +277,7 @@ for this_class in passenger_classes:
 # In Barcelona
 # In Barcelona
 # Your first logistic regression
+# False Positives and False Negatives Section 11, Lecture 66
 
 
 
