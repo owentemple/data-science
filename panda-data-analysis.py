@@ -278,7 +278,7 @@ for this_class in passenger_classes:
 # In Barcelona
 # Your first logistic regression
 # False Positives and False Negatives Section 11, Lecture 66
-
+# Confusion Matrix Section 11, Lecture 67
 
 
 
