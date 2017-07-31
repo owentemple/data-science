@@ -280,7 +280,7 @@ for this_class in passenger_classes:
 # False Positives and False Negatives Section 11, Lecture 66
 # Confusion Matrix Section 11, Lecture 67
 # Interpreting coefficients of a logistic regression Section 11, Lecture 68
-
+# Let's build the model - first iteration Section 12, Lecture 72
 
 
 
