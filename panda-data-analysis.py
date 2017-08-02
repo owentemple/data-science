@@ -282,6 +282,7 @@ for this_class in passenger_classes:
 # Interpreting coefficients of a logistic regression Section 11, Lecture 68
 # Let's build the model - first iteration Section 12, Lecture 72
 # Let's build the model - backward elimination: STEP-BY-STEP Section 12, Lecture 73
+# Pickup Pace
 
 
 
