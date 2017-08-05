@@ -283,6 +283,7 @@ for this_class in passenger_classes:
 # Let's build the model - first iteration Section 12, Lecture 72
 # Let's build the model - backward elimination: STEP-BY-STEP Section 12, Lecture 73
 # Pickup Pace
+# Transforming independent variables Section 12, Lecture 74
 
 
 
