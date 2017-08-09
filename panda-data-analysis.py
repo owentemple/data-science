@@ -285,7 +285,7 @@ for this_class in passenger_classes:
 # Pickup Pace
 # Transforming independent variables Section 12, Lecture 74
 # Creating derived variables Section 12, Lecture 75
-
+# Checking for multicollinearity using VIF Section 12, Lecture 76
 
 
 
