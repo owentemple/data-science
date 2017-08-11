@@ -286,6 +286,7 @@ for this_class in passenger_classes:
 # Transforming independent variables Section 12, Lecture 74
 # Creating derived variables Section 12, Lecture 75
 # Checking for multicollinearity using VIF Section 12, Lecture 76
+# Correlation Matrix and Multicollinearity Intuition Section 12, Lecture 77
 
 
 
