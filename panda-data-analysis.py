@@ -289,6 +289,7 @@ for this_class in passenger_classes:
 # Correlation Matrix and Multicollinearity Intuition Section 12, Lecture 77
 # Cumulative Accuracy Profile (CAP) Section 13, Lecture 81
 # Assessing your model using the CAP curve Section 13, Lecture 83
+# Get my CAP curve template Section 13, Lecture 84
 
 
 
