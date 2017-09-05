@@ -293,6 +293,6 @@ for this_class in passenger_classes:
 # How to use test data to prevent overfitting your model  Section 13, Lecture 85
 # Applying the model to test data Section 13, Lecture 86
 # Birthday
-
+# Comparing training performance and test performance Section 13, Lecture 87
 
 
