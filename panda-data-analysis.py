@@ -296,5 +296,5 @@ for this_class in passenger_classes:
 # Comparing training performance and test performance Section 13, Lecture 87
 # Power insights from your CAP Section 14, Lecture 90
 # Section Recap Section 14, Lecture 95
-
+# Intro (what you will learn in this section) Section 15, Lecture 96
 
