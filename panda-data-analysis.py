@@ -298,3 +298,9 @@ for this_class in passenger_classes:
 # Section Recap Section 14, Lecture 95
 # Intro (what you will learn in this section) Section 15, Lecture 96
 # Why do models deteriorate? Section 15, Lecture 98
+# Three levels of maintenance for deployed models Section 15, Lecture 99
+
+#Part 3
+# Working with Data Section 17, Lecture 103
+
+
