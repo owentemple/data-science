@@ -302,5 +302,6 @@ for this_class in passenger_classes:
 
 #Part 3
 # Working with Data Section 17, Lecture 103
-
+# What is a Data Warehouse? What is a Database? Section 17, Lecture 104
+# Important: Practice Database Section 17, Lecture 106
 
