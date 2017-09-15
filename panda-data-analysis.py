@@ -304,4 +304,6 @@ for this_class in passenger_classes:
 # Working with Data Section 17, Lecture 103
 # What is a Data Warehouse? What is a Database? Section 17, Lecture 104
 # Important: Practice Database Section 17, Lecture 106
+# Microsoft BI Tools: What is SSDT-BI and what are SSIS/SSAS/SSRS ? Section 17, Lecture 108
+# Installing SSDT with MSVS Shell Section 17, Lecture 109
 
