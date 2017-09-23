@@ -56,3 +56,66 @@ alcohol_consumption = world_alcohol[:,4]
 
 
 
+first_two_columns = world_alcohol[:,0:2]
+
+first_ten_years = world_alcohol[:10,0]
+
+first_ten_rows = world_alcohol[:10,:]
+
+
+first_twenty_regions = world_alcohol[:20,1:3]
+
+
+
+
+countries_canada = (world_alcohol[:,2] == "Canada")
+
+years_1984 = (world_alcohol[:,0] == "1984")
+
+
+
+
+
+country_is_algeria = world_alcohol[:,2] == "Algeria"
+
+country_algeria = world_alcohol[country_is_algeria]
+
+
+
+is_algeria_and_1986 = ((world_alcohol[:,2] == "Algeria") & (world_alcohol[:,0] == "1986"))
+
+rows_with_algeria_and_1986 = world_alcohol[is_algeria_and_1986]
+
+
+
+
+first_column_is_2014 = world_alcohol[:,0] == "1986"
+world_alcohol[first_column_is_2014,0] = "2014"
+
+fourth_column_is_wine = world_alcohol[:,3] == "Wine"
+world_alcohol[fourth_column_is_wine, 3] = "Grog"
+
+
+
+
+is_value_empty = world_alcohol[:,4] == ''
+
+world_alcohol[is_value_empty,4] = 0
+
+
+alcohol_consumption = world_alcohol[:,4]
+
+alcohol_consumption = alcohol_consumption.astype(float)
+
+
+
+alcohol_consumption = world_alcohol[:,4].astype(float)
+
+total_alcohol = alcohol_consumption.sum()
+
+average_alcohol = alcohol_consumption.mean()
+
+
+
+
+
