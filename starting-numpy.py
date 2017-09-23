@@ -118,4 +118,33 @@ average_alcohol = alcohol_consumption.mean()
 
 
 
+is_1986_and_canada = ((world_alcohol[:,0] == "1986") & (world_alcohol[:,2] == "Canada"))
+
+canada_1986 = world_alcohol[is_1986_and_canada]
+
+canada_1986_empty = canada_1986[:,4] == ''
+
+canada_1986[canada_1986_empty,4] = '0'
+
+canada_alcohol = canada_1986[:,4].astype(float)
+
+total_canadian_drinking = canada_alcohol.sum()
+
+
+
+#C10. Calculating Consumption for Each Country in process
+
+totals = {}
+
+year_is_1986 = world_alcohol[:,0] == "1986"
+
+alcohol_1986 = world_alcohol[year_is_1986]
+
+for country in countries:
+    if alcohol_1986[:,2] == country:
+        alcohol_1986[:,2]
+
+
+
+
 
