@@ -17,3 +17,9 @@ bulls_on_parade = Song(["The rally around tha family",
 happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
+
+
+
+#Instead of naming your functions after what the function does, instead name it as if it's a command you are giving to the class
+
+#When you write comments, describe why you are doing what you are doing
