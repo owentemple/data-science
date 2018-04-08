@@ -1,0 +1,13 @@
+name: module-machine-learning
+dependencies:
+  - python=3
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - graphviz
+  - pillow
+  - pip:
+    - graphviz

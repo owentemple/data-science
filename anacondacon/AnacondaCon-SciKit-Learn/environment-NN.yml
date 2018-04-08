@@ -1,0 +1,15 @@
+name: sklearn-module
+dependencies:
+  - python=3
+  - scikit-learn
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - graphviz
+  - pillow
+  - keras
+  - tensorflow
+  - pip:
+    - graphviz
