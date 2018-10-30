@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3b4d7d-7f9f-4f9c-99ef-8e62ba823121" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/python-lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anacondacon/ACON18_Distribution" beforeDir="false" afterPath="$PROJECT_DIR$/../anacondacon/ACON18_Distribution" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data-science-from-scratch" beforeDir="false" afterPath="$PROJECT_DIR$/../data-science-from-scratch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,16 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="joining-data-in-postgres.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="joining-data-in-postgres.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
+            <state relative-caret-position="1397">
               <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="python-lists.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python-lists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,11 +50,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/joining-data-in-postgres.sql" />
+        <option value="$PROJECT_DIR$/python-lists.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="51" />
+    <option name="x" value="2031" />
+    <option name="y" value="154" />
     <option name="width" value="1680" />
     <option name="height" value="966" />
   </component>
@@ -45,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -56,7 +78,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -96,9 +117,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="51" width="1680" height="966" extended-state="0" />
+    <frame x="2031" y="154" width="1680" height="966" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -125,6 +147,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="join queries" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
@@ -155,8 +184,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
+        <state relative-caret-position="1397">
           <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
     </entry>
