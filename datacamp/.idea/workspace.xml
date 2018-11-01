@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d3b4d7d-7f9f-4f9c-99ef-8e62ba823121" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python-lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../anacondacon/ACON18_Distribution" beforeDir="false" afterPath="$PROJECT_DIR$/../anacondacon/ACON18_Distribution" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../data-science-from-scratch" beforeDir="false" afterPath="$PROJECT_DIR$/../data-science-from-scratch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/python-lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="python-lists.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python-lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="465">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -191,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python-lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="465">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
