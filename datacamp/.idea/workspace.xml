@@ -18,7 +18,7 @@
       <file leaf-file-name="joining-data-in-postgres.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1397">
+            <state relative-caret-position="1540">
               <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
             </state>
           </provider>
@@ -27,7 +27,7 @@
       <file leaf-file-name="python-lists.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python-lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="751">
+            <state relative-caret-position="685">
               <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
@@ -54,8 +54,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2031" />
-    <option name="y" value="154" />
+    <option name="x" value="1980" />
+    <option name="y" value="111" />
     <option name="width" value="1680" />
     <option name="height" value="966" />
   </component>
@@ -65,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,6 +76,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -116,19 +116,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2031" y="154" width="1680" height="966" extended-state="0" />
+    <frame x="1980" y="111" width="1680" height="966" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -146,6 +146,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="join queries" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python-lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1540">
@@ -183,14 +197,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joining-data-in-postgres.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1397">
+        <state relative-caret-position="1540">
           <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python-lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
+        <state relative-caret-position="685">
           <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
