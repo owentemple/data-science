@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bcbd3d5-ac03-4604-bba3-3e7943d6dd2a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/datacamp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datacamp/numpy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/anacondacon/ACON18_Distribution" beforeDir="false" afterPath="$PROJECT_DIR$/anacondacon/ACON18_Distribution" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data-science-from-scratch" beforeDir="false" afterPath="$PROJECT_DIR$/data-science-from-scratch" afterDir="false" />
