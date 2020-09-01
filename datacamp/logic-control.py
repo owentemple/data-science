@@ -9,3 +9,15 @@ True == False
 
 # Compare a boolean with an integer
 True == 1
+
+
+# Comparison of integers
+x = -3 * 6
+print(x >= -10)
+
+# Comparison of strings
+y = "test"
+print("test" <= y)
+
+# Comparison of booleans
+print(True > False)
