@@ -56,10 +56,14 @@ print(np.logical_and(my_house < 11, your_house < 11))
 room = "kit"
 area = 14.0
 
-# if statement for room
+# if-else construct for room
 if room == "kit" :
     print("looking around in the kitchen.")
+else :
+    print("looking around elsewhere.")
 
-# if statement for area
-if area > 15:
+# if-else construct for area
+if area > 15 :
     print("big place!")
+else :
+    print("pretty small.")
