@@ -1,8 +1,11 @@
 # Initialize offset
-offset = 8
+offset = -6
 
 # Code the while loop
-while offset != 0:
+while offset != 0 :
     print("correcting...")
-    offset-=1
+    if offset > 0 :
+      offset -= 1
+    else :
+      offset += 1
     print(offset)
