@@ -1,11 +1,6 @@
-# Initialize offset
-offset = -6
+# areas list
+areas = [11.25, 18.0, 20.0, 10.75, 9.50]
 
-# Code the while loop
-while offset != 0 :
-    print("correcting...")
-    if offset > 0 :
-      offset -= 1
-    else :
-      offset += 1
-    print(offset)
+# Code the for loop
+for item in areas:
+    print(item)
