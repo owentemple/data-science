@@ -1,10 +1,7 @@
-# house list of lists
-house = [["hallway", 11.25],
-         ["kitchen", 18.0],
-         ["living room", 20.0],
-         ["bedroom", 10.75],
-         ["bathroom", 9.50]]
+# Definition of dictionary
+europe = {'spain': 'madrid', 'france': 'paris', 'germany': 'berlin',
+          'norway': 'oslo', 'italy': 'rome', 'poland': 'warsaw', 'austria': 'vienna'}
 
-# Build a for loop from scratch
-for room in house:
-    print("the " + room[0] + " is " + str(room[1]) + " sqm")
+# Iterate over europe
+for key, value in europe.items():
+    print("the capital of " + key + " is " + value)
