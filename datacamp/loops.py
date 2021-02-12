@@ -1,7 +1,10 @@
-# Definition of dictionary
-europe = {'spain': 'madrid', 'france': 'paris', 'germany': 'berlin',
-          'norway': 'oslo', 'italy': 'rome', 'poland': 'warsaw', 'austria': 'vienna'}
+# Import numpy as np
+import numpy as np
 
-# Iterate over europe
-for key, value in europe.items():
-    print("the capital of " + key + " is " + value)
+# For loop over np_height
+for x in np_height :
+    print(str(x) + " inches")
+
+# For loop over np_baseball
+for x in np.nditer(np_baseball) :
+    print(x)
