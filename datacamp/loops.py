@@ -1,10 +1,9 @@
-# Import numpy as np
-import numpy as np
+# Import cars data
+import pandas as pd
 
-# For loop over np_height
-for x in np_height :
-    print(str(x) + " inches")
+cars = pd.read_csv('cars.csv', index_col=0)
 
-# For loop over np_baseball
-for x in np.nditer(np_baseball) :
-    print(x)
+# Iterate over rows of cars
+for lab, row in cars.iterrows():
+    print(lab)
+    print(row)
