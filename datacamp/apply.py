@@ -1,8 +1,9 @@
-# Import numpy as np
+# Import numpy and set seed
 import numpy as np
-
-# Set the seed
 np.random.seed(123)
 
-# Generate and print random float
-print(np.random.rand())
+# Use randint() to simulate a dice
+print(np.random.randint(1,7))
+
+# Use randint() again
+print(np.random.randint(1,7))
